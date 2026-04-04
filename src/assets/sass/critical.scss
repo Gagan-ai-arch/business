@@ -101,11 +101,11 @@
 
         .cs-title {
             /* 39px - 61px */
-            font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+            font-size: clamp(2.1875rem, 6.4vw, 3.5625rem);
             font-weight: 700;
             line-height: 1.2em;
             text-align: center;
-            max-width: calc(829 / 16 * 1rem);
+            max-width: calc(955 / 16 * 1rem);
             /* 16px - 24px */
             margin: 0 auto clamp(1rem, 4vw, 1.5rem);
             color: #fff;
@@ -128,8 +128,8 @@
         }
 
         .cs-text {
-            /* 16px - 25px */
-            font-size: clamp(1rem, 1.95vw, 1.5625rem);
+            /* 14px - 23px */
+            font-size: clamp(0.875rem, 1.95vw, 1.4375rem);
             line-height: 1.5em;
             text-align: center;
             width: 100%;
@@ -172,7 +172,7 @@
 
             .cs-background {
                 &:before {
-                    opacity: 0.85;
+                    opacity: 0.75;
                 }
             }
         }

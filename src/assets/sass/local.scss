@@ -134,6 +134,18 @@
             bottom: 0;
         }
     }
+    #RPsbsr-313 {
+        .csRPsbr-313-picture {
+            img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .icon {
+                    fill: #fff;
+                }
+            }
+        }
+    }
 }
 
 /* Desktop - 1024px */
@@ -231,8 +243,16 @@
 @media only screen and (min-width: 64rem) {
     #RPsbsr-313 {
         .cs-image-group {
-            /* sends it to the right in the 2nd position */
-            order: 2;
+            /* keeps it to the left in the 1nd position */
+            // this is defautl behavior 
+            order: 0;
+        }
+    }
+    #RPsbs-313 {
+        .cs-image-group {
+            /* keeps it to the left in the 1nd position */
+            // this is defautl behavior 
+            order: 1;
         }
     }
 }
