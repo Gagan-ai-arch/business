@@ -681,7 +681,7 @@
             max-width: calc(1280 / 16 * 1rem);
 
             .cs-card-group {
-                flex-direction: row;
+                flex-direction: row-reverse;
                 align-items: stretch;
             }
         }
@@ -692,7 +692,7 @@
 @media only screen and (min-width: 64rem) {
     #pricing-1387 {
         .cs-container {
-            flex-direction: row;
+            flex-direction: row-reverse;
             align-items: center;
             justify-content: space-between;
         }
